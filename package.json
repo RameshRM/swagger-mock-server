@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "lint": "node_modules/.bin/eslint .",
+    "lint": "node_modules/.bin/eslint ./lib",
     "build": "make all",
     "test": "node_modules/.bin/mocha test"
   },
