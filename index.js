@@ -13,9 +13,8 @@ async.waterfall([Spec.load.bind(this, {
   app: app
 }), function(result, callback) {
   callback(result instanceof Error || undefined, result instanceof Error ? undefined : result);
-}], function(err, result) {
+}], function(err) {
   if (err) {
-    console.log(err);
     debug('Unable to load spec, %s', err);
   }
   var listener = app.listen(APP_PORT);

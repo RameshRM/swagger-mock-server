@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
+    "lint":"node_modules/.bin/eslint .",
+    "build": "make all",
     "test": "node_modules/.bin/mocha test"
   },
   "author": "",
@@ -17,6 +19,8 @@
     "swagger-resource-meddleware": "file:../swagger-resource-meddleware"
   },
   "devDependencies": {
+    "eslint": "^2",
+    "istanbul": "^0.4.4",
     "mocha": "^3.0.2",
     "supertest": "^2.0.0"
   }
