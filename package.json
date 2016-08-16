@@ -1,0 +1,22 @@
+{
+  "name": "swagger-mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "js-yaml": "^3.6.1",
+    "swagger-resource-meddleware": "file:../swagger-resource-meddleware"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
+  }
+}
