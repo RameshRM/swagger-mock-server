@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "lint":"node_modules/.bin/eslint .",
+    "lint": "node_modules/.bin/eslint .",
     "build": "make all",
     "test": "node_modules/.bin/mocha test"
   },
@@ -16,7 +16,7 @@
     "debug": "^2.2.0",
     "express": "^4.14.0",
     "js-yaml": "^3.6.1",
-    "swagger-resource-meddleware": "file:../swagger-resource-meddleware"
+    "swagger-resource-meddleware": "^0.1.0"
   },
   "devDependencies": {
     "eslint": "^2",
