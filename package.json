@@ -1,6 +1,6 @@
 {
   "name": "swagger-mock-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "mocha": "^3.0.2",
     "supertest": "^2.0.0"
   },
-"repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/rameshrm/swagger-mock-server.git"
   },
@@ -32,5 +32,5 @@
     "mock",
     "swagger",
     "mock server"
-  ]  
+  ]
 }
